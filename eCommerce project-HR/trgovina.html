@@ -5,13 +5,369 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+        <title>Webshop BP</title>
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a class="active" href="trgovina.html">Trgovina</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li id="lg-bag"><a href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>  <!-- close button/mob -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </section>
+
+        <section id="page-header">
+            <h2>#ostanidoma</h2>
+            <p>Uštedite uz kupone sa 70% popusta!</p>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <div class="prod-container">
+                <div class="prod" onclick=window.location.href="sproduct.html">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a> <!-- dodan je id cartmini jer nisam mogao u i tag -->
+                </div>
+                <div class="prod">
+                    <img src="img/products/f2.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f3.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f4.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f5.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f6.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f7.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>               
+                <div class="prod">
+                    <img src="img/products/n1.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a> <!-- dodan je id cartmini jer nisam mogao u i tag -->
+                </div>
+                <div class="prod">
+                    <img src="img/products/n2.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n3.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n4.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n5.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n6.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n7.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="prod">
+                    <img src="img/products/n8.jpg" alt="">
+                    <div class="desc">
+                        <span>adidas</span>
+                        <h5>Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>78€</h4>
+                    </div>
+                    <a href="#" id="cartmini"><i class="fas fa-shopping-cart"></i></a>
+                </div>               
+            </div>
+
+        </section>
+
+        <section id="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Pretplatite se na e-letak</h4>
+                <p>E-mail obavijesti o novim <span>posebnim sniženjima.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Vaša email adresa">
+                <button class="normal">Prijava</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Kontakt</h4>
+                <p><strong>Adress: </strong>Vukovarska 100 Zagreb</p>
+                <p><strong>Radno Vrijeme: </strong> 08:00 - 20:00, Ponedjeljak-Subota</p>
+                <div class="follow">
+                    <h4>Pratite nas</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <h4>O nama</h4>
+                <a href="#">O nama</a>
+                <a href="#">Informacije o dostavi</a>
+                <a href="#">Privatnost</a>
+                <a href="#">Uvjeti o korištenju</a>
+                <a href="#">Kontakt</a>
+            </div>
+
+            <div class="col">
+                <h4>Moj Račun</h4>
+                <a href="#">Prijava</a>
+                <a href="#">Košarica</a>
+                <a href="#">Lista Želja</a>
+                <a href="#">Moje narudzbe</a>
+                <a href="#">Pomoć</a>
+            </div>
+
+            <div class="col install">
+                <h4>Instalirajte Aplikaciju</h4>
+                <p>Google Play ili App Store</p>
+                <div class="row">
+                    <img src="img/pay/play.jpg" alt="">
+                    <img src="img/pay/app.jpg" alt="">
+                </div>
+                <p>Sigurno Plaćanje</p>
+                <img src="img/pay/pay.png" alt="">
+                
+            </div>
+            <div class="copyright">
+                    <p>2024 Mato VU Ecommerce HTML CSS JS Template</p>
+            </div>
+        </footer>
 
         <script src="script.js"></script>
     </body>

@@ -5,18 +5,157 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+        <title>Webshop BP</title>
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="trgovina.html">Trgovina</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a class="active" href="kontakt.html">Kontakt</a></li>
+                <li id="lg-bag"><a href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>  <!-- close button/mob -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#PronađiteNas</h2>
+            <p>Kontaktirajte nas,posaljite poruku,misljenje ili prijedlog!</p>
+        </section>
+
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <span>KONTAKT</span>
+                <h2>Posjetite jednu od naših poslovnica</h2>
+                <h3>Matični Ured</h3>
+                <div>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Vukovarska 100a Zagreb</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <p>kontakt@primjer.hr</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone-alt"></i>
+                        <p>099 100 1000</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-clock"></i>
+                        <p>Ponedjeljak-Subota : 09:00 do 16:00</p>
+                    </li>   
+                </div>
+            </div>
+              <div class="map"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13338.41648498083!2d19.00234975489149!3d45.34766866424634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c8fa3501f4725%3A0x1695eea3c3b7727!2sVukovar%20Municipal%20Museum%20%2F%20Castle%20Eltz!5e0!3m2!1sen!2shr!4v1731744250389!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="form-details">
+            <form action="">
+                <h2>Pošaljite Poruku</h2>
+                <input type="text" placeholder="Vaše Ime">
+                <input type="text" placeholder="e-mail">
+                <input type="text" placeholder="Naslov">
+                <textarea name="" id="" cols="30" rows="10">Vaša Poruka</textarea>
+                <button class="normal">Pošalji</button>
+            </form>
+
+            <div class="people">
+                <div>
+                    <img src="img/people/1.png" alt="">
+                    <p><span>Marko Marković</span> Marketing <br> Tel. 099 123 1234 <br>E-mail marketing@primjer.hr</p>
+                </div>
+                <div>
+                    <img src="img/people/2.png" alt="">
+                    <p><span>Josip Polić</span> Marketing <br> Tel. 099 123 1234 <br>E-mail marketing@primjer.hr</p>
+                </div>
+                <div>
+                    <img src="img/people/3.png" alt="">
+                    <p><span>Ivana Matić</span> Marketing <br> Tel. 099 123 1234 <br>E-mail marketing@primjer.hr</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Pretplatite se na e-letak</h4>
+                <p>E-mail obavijesti o novim <span>posebnim sniženjima.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Vaša email adresa">
+                <button class="normal">Prijava</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Kontakt</h4>
+                <p><strong>Adress: </strong>Vukovarska 100 Zagreb</p>
+                <p><strong>Radno Vrijeme: </strong> 08:00 - 20:00, Ponedjeljak-Subota</p>
+                <div class="follow">
+                    <h4>Pratite nas</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <h4>O nama</h4>
+                <a href="#">O nama</a>
+                <a href="#">Informacije o dostavi</a>
+                <a href="#">Privatnost</a>
+                <a href="#">Uvjeti o korištenju</a>
+                <a href="#">Kontakt</a>
+            </div>
+
+            <div class="col">
+                <h4>Moj Račun</h4>
+                <a href="#">Prijava</a>
+                <a href="#">Košarica</a>
+                <a href="#">Lista Želja</a>
+                <a href="#">Moje narudzbe</a>
+                <a href="#">Pomoć</a>
+            </div>
+
+            <div class="col install">
+                <h4>Instalirajte Aplikaciju</h4>
+                <p>Google Play ili App Store</p>
+                <div class="row">
+                    <img src="img/pay/play.jpg" alt="">
+                    <img src="img/pay/app.jpg" alt="">
+                </div>
+                <p>Sigurno Plaćanje</p>
+                <img src="img/pay/pay.png" alt="">
+                
+            </div>
+            <div class="copyright">
+                    <p>2024 Mato VU Ecommerce HTML CSS JS Template</p>
+            </div>
+        </footer>
 
         <script src="script.js"></script>
-
     </body>
 
 </html>

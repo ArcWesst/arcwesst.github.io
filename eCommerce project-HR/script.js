@@ -1,4 +1,4 @@
-// Script for navigation bar
+// Script for navigation hamburger side bar
 
 const bar = document.getElementById("bar");
 const close = document.getElementById("close");

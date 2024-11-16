@@ -5,18 +5,162 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+        <title>Webshop BP</title>
+        <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="trgovina.html">Trgovina</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li id="lg-bag"><a class="active" href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>  <!-- close button/mob -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="kosarica.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#PronađiteNas</h2>
+            <p>Kontaktirajte nas,posaljite poruku,misljenje ili prijedlog!</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Ukloni</td>
+                        <td>Slika</td>
+                        <td>Proizvod</td>
+                        <td>Cijena</td>
+                        <td>Količina</td>
+                        <td>Ukupna Cijena</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f1.jpg" alt=""></td>
+                        <td>Astronaut T-shirt</td>
+                        <td>79.89€</td>
+                        <td><input type="number" value="1"></td>
+                        <td>79.89€</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f2.jpg" alt=""></td>
+                        <td>Astronaut T-shirt</td>
+                        <td>79.89€</td>
+                        <td><input type="number" value="1"></td>
+                        <td>79.89€</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="img/products/f3.jpg" alt=""></td>
+                        <td>Astronaut T-shirt</td>
+                        <td>79.89€</td>
+                        <td><input type="number" value="1"></td>
+                        <td>79.89€</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Primjenite Kupon</h3>
+                <div>
+                    <input type="text">
+                    <button class="normal">Primjeni</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Ukupno</h3>
+                <table>
+                    <tr>
+                        <td>Košarica Ukupno</td>
+                        <td>335€</td>
+                    </tr>
+                    <tr>
+                        <td>Dostava</td>
+                        <td>Besplatno</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ukupno</strong></td>
+                        <td><strong>335€</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Nastavi na Plaćanje</button>
+
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Kontakt</h4>
+                <p><strong>Adress: </strong>Vukovarska 100 Zagreb</p>
+                <p><strong>Radno Vrijeme: </strong> 08:00 - 20:00, Ponedjeljak-Subota</p>
+                <div class="follow">
+                    <h4>Pratite nas</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <h4>O nama</h4>
+                <a href="#">O nama</a>
+                <a href="#">Informacije o dostavi</a>
+                <a href="#">Privatnost</a>
+                <a href="#">Uvjeti o korištenju</a>
+                <a href="#">Kontakt</a>
+            </div>
+
+            <div class="col">
+                <h4>Moj Račun</h4>
+                <a href="#">Prijava</a>
+                <a href="#">Košarica</a>
+                <a href="#">Lista Želja</a>
+                <a href="#">Moje narudzbe</a>
+                <a href="#">Pomoć</a>
+            </div>
+
+            <div class="col install">
+                <h4>Instalirajte Aplikaciju</h4>
+                <p>Google Play ili App Store</p>
+                <div class="row">
+                    <img src="img/pay/play.jpg" alt="">
+                    <img src="img/pay/app.jpg" alt="">
+                </div>
+                <p>Sigurno Plaćanje</p>
+                <img src="img/pay/pay.png" alt="">
+                
+            </div>
+            <div class="copyright">
+                    <p>2024 Mato VU Ecommerce HTML CSS JS Template</p>
+            </div>
+        </footer>
 
         <script src="script.js"></script>
-
     </body>
 
 </html>
